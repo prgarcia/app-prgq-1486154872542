@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 2
+  domain: mybluemix.net
+  name: app-prgq
+  host: app-prgq
+  disk_quota: 1024M
+  services:
+  - prgq-bot1
+  - app-prgq-cloudantNoSQLDB
